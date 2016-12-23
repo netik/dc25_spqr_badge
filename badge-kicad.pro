@@ -1,4 +1,4 @@
-update=Saturday, December 17, 2016 'AMt' 02:20:57 AM
+update=Thursday, December 22, 2016 'AMt' 11:48:55 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../sma_connectors;../sma_connectors/library;../componenmts;Connectors_JST.pretty
+LibDir=../componenmts;Connectors_JST.pretty;EDALibraries/KiCad/Schematics
 [eeschema/libraries]
 LibName1=badge-kicad-rescue
 LibName2=power
@@ -70,3 +70,29 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/Users/jna/Dropbox/Badge Stuff/badge files/FTDI
+LibName32=kicad_libs/library/conn
+LibName33=kicad_libs/library/power
+LibName34=kicad_libs/library/w_analog
+LibName35=kicad_libs/library/w_connectors
+LibName36=kicad_libs/library/w_device
+LibName37=kicad_libs/library/w_logic
+LibName38=kicad_libs/library/w_memory
+LibName39=kicad_libs/library/w_microcontrollers
+LibName40=kicad_libs/library/w_opto
+LibName41=kicad_libs/library/w_relay
+LibName42=kicad_libs/library/w_rtx
+LibName43=kicad_libs/library/w_transistor
+LibName44=kicad_libs/library/w_vacuum
+LibName45=kicadlibrary/open-project
+LibName46=EDALibraries/KiCad/Schematics/MF_Aesthetics
+LibName47=EDALibraries/KiCad/Schematics/MF_Connectors
+LibName48=EDALibraries/KiCad/Schematics/MF_Discrete_Semiconductor
+LibName49=EDALibraries/KiCad/Schematics/MF_Displays
+LibName50=EDALibraries/KiCad/Schematics/MF_Frequency_Control
+LibName51=EDALibraries/KiCad/Schematics/MF_IC_Analog
+LibName52=EDALibraries/KiCad/Schematics/MF_IC_Digital
+LibName53=EDALibraries/KiCad/Schematics/MF_IC_Power
+LibName54=EDALibraries/KiCad/Schematics/MF_LEDs
+LibName55=EDALibraries/KiCad/Schematics/MF_Passives
+LibName56=EDALibraries/KiCad/Schematics/MF_Sensors
+LibName57=EDALibraries/KiCad/Schematics/MF_Switches
