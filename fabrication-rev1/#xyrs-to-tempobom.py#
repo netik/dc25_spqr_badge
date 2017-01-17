@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+f = open("final_bom.xyrs")
+
+for line in f:
+    if line.startswith("#"):
+        next
+
+    parts=line.split()
+
+    print "%s,%s,
