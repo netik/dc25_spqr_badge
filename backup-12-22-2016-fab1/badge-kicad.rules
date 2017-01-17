@@ -1,0 +1,132 @@
+
+(rules PCB badge-kicad
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1119)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 130.0)
+    (clear 130.2)
+    (clear 65.0 (type smd_to_turn_gap))
+    (clear 32.6 (type smd_smd))
+  )
+  (padstack "Via[0-3]_400:305_um"
+    (shape
+      (circle F.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 400.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_800:305_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_400:305_um" "Via[0-3]_400:305_um" default
+  )
+  (via 
+    "Via[0-3]_800:305_um" "Via[0-3]_800:305_um" default
+  )
+  (via 
+    "Via[0-3]_400:305_um-kicad_default" "Via[0-3]_400:305_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_800:305_um-kicad_default" "Via[0-3]_800:305_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_400:305_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_400:305_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 130.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND CLOCKOUT "Net-(L1-Pad1)" "DISP_SDI(MOSI)" "RESET_TGTMCU" "DISP_SDO(MISO)" "DISP_SCK" "DISP_CS"
+    "PWM_SOUND" "UART0_CTS" PTB0 "DISP_DC" "UART_RX" "UART_TX" "DEBUG_SWD_DIO" "DEBUG_SWD_CLK"
+    "RF_RESET" "TOUCH_CS" "LEDS_IN" PTE16 "Net-(Q1-Pad2)" "Net-(D3-Pad1)" "Net-(D4-Pad1)" "Net-(P1-Pad3)"
+    "Net-(U14-Pad2)" "Net-(U11-Pad2)" "Net-(U12-Pad2)" "Net-(U10-Pad2)" "Net-(U3-Pad2)" "Net-(U4-Pad2)" "Net-(U5-Pad2)" "Net-(U6-Pad2)"
+    "Net-(U10-Pad4)" "Net-(D2-Pad1)" "Net-(D1-Pad1)" "Net-(U2-Pad2)" +3V3 "Net-(J2-Pad6)" "Net-(J2-Pad7)" "Net-(J2-Pad8)"
+    "Net-(J2-Pad9)" "Net-(U13-Pad59)" "Net-(U13-Pad57)" "Net-(U13-Pad58)" "Net-(U13-Pad60)" "Net-(U13-Pad53)" "Net-(U13-Pad52)" "Net-(U13-Pad51)"
+    "Net-(U13-Pad50)" "Net-(U13-Pad49)" "Net-(R7-Pad2)" "Net-(C20-Pad2)" "Net-(C21-Pad2)" "Net-(U13-Pad43)" "Net-(U13-Pad42)" "Net-(U13-Pad41)"
+    "Net-(U13-Pad37)" "Net-(U13-Pad30)" "Net-(U13-Pad26)" "Net-(U13-Pad24)" "Net-(U13-Pad23)" "Net-(TP1-Pad1)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
+    "Net-(U1-Pad2)" "Net-(U7-Pad2)" "Net-(U8-Pad2)" "Net-(C23-Pad1)" "Net-(C25-Pad1)" "Net-(C24-Pad1)" "Net-(C24-Pad2)" "Net-(C23-Pad2)"
+    "Net-(U14-Pad4)" "Net-(U14-Pad6)" "Net-(U14-Pad8)" "Net-(U14-Pad9)" "Net-(U14-Pad10)" "Net-(U14-Pad12)" "Net-(U14-Pad13)" "Net-(U14-Pad14)"
+    "Net-(P4-Pad3)" "Net-(P4-Pad2)" "Net-(U14-Pad24)" "Net-(U14-Pad27)" "Net-(U14-Pad28)" VCC TILTSENS "Net-(P2-Pad3)"
+    "Net-(P2-Pad4)" "Net-(P2-Pad5)" "Net-(P2-Pad6)" "Net-(P2-Pad7)" "Net-(P2-Pad8)" "Net-(P2-Pad9)" "Net-(P2-Pad10)" "Net-(P2-Pad11)"
+    "Net-(P2-Pad12)" "Net-(P2-Pad13)" "Net-(P2-Pad14)" "Net-(P2-Pad15)" "Net-(P2-Pad16)" "Net-(P2-Pad17)" "Net-(P2-Pad18)" "Net-(P2-Pad19)"
+    "Net-(P2-Pad20)" "Net-(P2-Pad21)" "Net-(P2-Pad22)" "Net-(P2-Pad26)" "Net-(P2-Pad29)" "Net-(P2-Pad31)" "Net-(P2-Pad36)" "Net-(P2-Pad37)"
+    "Net-(P2-Pad38)" "Net-(P2-Pad39)" VBAT "Net-(U15-Pad4)" "Net-(D5-Pad1)" "Net-(R15-Pad1)" "Net-(D6-Pad2)" VUSB
+    "Net-(R5-Pad1)" "Net-(R2-Pad2)" "Net-(A1-Pad2)" "Net-(A1-Pad1)" "Net-(A1-Pad3)" "Net-(A1-Pad8)" "Net-(A1-Pad6)" "Net-(A1-Pad7)"
+    "Net-(A1-Pad5)" "Net-(A1-Pad4)" "Net-(R3-Pad1)" "Net-(U13-Pad47)" "Net-(U13-Pad46)" "Net-(D7-Pad1)" "Net-(P3-Pad6)" PTD7
+    "Net-(D8-Pad1)" "Net-(Q1-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 130.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu)
+    )
+  )
+)

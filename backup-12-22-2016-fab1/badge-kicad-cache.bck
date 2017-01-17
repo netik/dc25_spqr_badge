@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CREE_CLVBA-FKA
+D LED RGB, common anode (pin 1)
+K led rgb diode
+$ENDCMP
+#
+#End Doc Library
