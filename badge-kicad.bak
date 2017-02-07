@@ -681,7 +681,7 @@ $EndComp
 Text Notes 15900 7900 0    60   ~ 12
 DEBUG LEDS\n\n
 Text GLabel 2100 9300 0    60   Output ~ 0
-RF_RESET
+PTB1
 Text GLabel 2100 9450 0    60   Output ~ 0
 PTB0
 Text GLabel 1650 5700 0    60   Output ~ 0
@@ -1250,7 +1250,7 @@ F 3 "" H 14550 8450 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6450 8150 2    60   Output ~ 0
-PTD7
+RF_RESET
 Text Notes 15500 8950 0    60   ~ 0
 Radio RX
 Text Notes 15500 8600 0    60   ~ 0
@@ -1280,7 +1280,7 @@ F 3 "" H 15050 8800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 15550 8800 2    60   Input ~ 0
-PTD7
+PTB1
 Text GLabel 11650 600  0    60   Input ~ 0
 VBAT
 $Comp
