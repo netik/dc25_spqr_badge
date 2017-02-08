@@ -1,5 +1,5 @@
 Drill report for /Users/jna/Dropbox/Badge Stuff/badge files/badge-kicad/badge-kicad.kicad_pcb
-Created on Tuesday, February 07, 2017 'AMt' 02:28:54 AM
+Created on Tuesday, February 07, 2017 'PMt' 09:51:11 PM
 
 Copper Layer Stackup:
     =============================================================
@@ -10,7 +10,7 @@ Copper Layer Stackup:
 Drill file 'badge-kicad.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (95 holes)
+    T1  0.40mm  0.016"  (96 holes)
     T2  0.50mm  0.020"  (2 holes)  (with 2 slots)
     T3  0.65mm  0.026"  (10 holes)
     T4  0.80mm  0.031"  (11 holes)
@@ -18,7 +18,7 @@ Drill file 'badge-kicad.drl' contains
     T6  1.00mm  0.039"  (3 holes)
     T7  1.02mm  0.040"  (49 holes)
 
-    Total plated holes count 172
+    Total plated holes count 173
 
 
 Not plated through holes are merged with plated holes
