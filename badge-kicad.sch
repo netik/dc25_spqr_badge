@@ -1475,7 +1475,7 @@ VR_PA
 Text GLabel 6600 5500 0    60   Input ~ 0
 VR_PA
 Text Notes 7050 5400 0    60   ~ 0
-rev1 did not connect VR_PA and it’s cap/inductor pair\n
+rev1 did not connect VR_PA and its cap/inductor pair\n
 $Comp
 L GND #PWR038
 U 1 1 58606D55
