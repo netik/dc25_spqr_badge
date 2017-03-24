@@ -9,4 +9,5 @@
   (lib (name MF_LEDs)(type KiCad)(uri "/Users/jna/Dropbox/Badge Stuff/badge files/componenmts/EDALibraries/KiCad/Footprints/MF_LEDs.pretty")(options "")(descr ""))
   (lib (name MF_Passives)(type KiCad)(uri "/Users/jna/Dropbox/Badge Stuff/badge files/componenmts/EDALibraries/KiCad/Footprints/MF_Passives.pretty")(options "")(descr ""))
   (lib (name MF_Switches)(type KiCad)(uri "/Users/jna/Dropbox/Badge Stuff/badge files/componenmts/EDALibraries/KiCad/Footprints/MF_Switches.pretty")(options "")(descr ""))
+  (lib (name jna-parts)(type KiCad)(uri "$(KIPRJMOD)/jna-parts.pretty")(options "")(descr ""))
 )

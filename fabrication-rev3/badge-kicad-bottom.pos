@@ -1,0 +1,9 @@
+### Module positions - created on Friday, March 24, 2017 'PMt' 12:01:48 PM ###
+### Printed by Pcbnew version kicad (2016-12-18 revision 3ffa37c)-master
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                   Package                                     PosX       PosY       Rot  Side
+BT1       Battery 3.7v 1200mAh  JST_PH_S2B-PH-SM4-TB_02x2.00mm_Angled   117.5300   -69.1620  270.0000  bottom
+P4        USB_MICRO_RIGHT       MF_Connectors-MICROUSB-RIGHT            187.1300  -124.0620  180.0000  bottom
+SW2       POWERON               SW_SPDT_PCM12                           107.2800  -123.7620  180.0000  bottom
+## End

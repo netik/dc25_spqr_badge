@@ -1,0 +1,104 @@
+### Module positions - created on Friday, March 24, 2017 'PMt' 12:01:48 PM ###
+### Printed by Pcbnew version kicad (2016-12-18 revision 3ffa37c)-master
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                       Package                              PosX       PosY       Rot  Side
+C1        0.1uF                     C_0805_HandSoldering             119.5300   -54.7620   90.0000  top
+C2        0.1uF                     C_0805_HandSoldering             129.0300   -54.7620   90.0000  top
+C3        0.1uF                     C_0805_HandSoldering             139.0300   -54.7620   90.0000  top
+C4        0.1uF                     C_0805_HandSoldering             149.0300   -54.7620   90.0000  top
+C5        0.1uF                     C_0805_HandSoldering             159.0300   -54.7620   90.0000  top
+C6        0.1uF                     C_0805_HandSoldering             169.0300   -54.7620   90.0000  top
+C7        0.1uF                     C_0805_HandSoldering             169.0300  -122.2620   90.0000  top
+C8        0.1uF                     C_0805_HandSoldering             159.0300  -122.2620   90.0000  top
+C9        0.1uF                     C_0805_HandSoldering             149.0300  -122.2620   90.0000  top
+C10       0.1uF                     C_0805_HandSoldering             139.0300  -122.5120   90.0000  top
+C11       0.1uF                     C_0805_HandSoldering             128.9300  -122.5620   90.0000  top
+C12       0.1uF                     C_0805_HandSoldering             119.5300  -122.2620   90.0000  top
+C13       1uF                       C_0805_HandSoldering             122.2800   -95.2620    0.0000  top
+C14       10uF                      C_1206                           115.2800   -80.5120  180.0000  top
+C15       10uF                      C_1206                           115.5300   -91.5120    0.0000  top
+C16       220pF                     C_0805_HandSoldering             157.0300   -68.0120    0.0000  top
+C17       11pF                      C_0805_HandSoldering             145.0300   -75.7620   90.0000  top
+C18       0.01uF                    C_0603_HandSoldering             157.1300   -65.0620    0.0000  top
+C19       2pF                       C_0603_HandSoldering             142.0300   -69.2620  270.0000  top
+C20       0.1uF                     C_0805_HandSoldering             166.0300   -68.0120    0.0000  top
+C21       0.1uF                     C_0805_HandSoldering             166.0300   -65.0120    0.0000  top
+C22       0.1uF                     C_0805_HandSoldering             129.0300   -73.2620    0.0000  top
+C23       6.8pF                     C_0603_HandSoldering             138.5300   -65.2620    0.0000  top
+C24       7.5pF                     C_0603_HandSoldering             134.0300   -69.2620  270.0000  top
+C25       5.6pF                     C_0805_HandSoldering             125.6300   -69.3620  270.0000  top
+C26       100pF                     C_0805_HandSoldering             120.5300   -65.7620    0.0000  top
+C27       1.2pF                     C_0805_HandSoldering              98.0300   -76.7620  270.0000  top
+C28       3.3pF                     C_0805_HandSoldering              84.5300   -76.2620  270.0000  top
+C29       1uF                       C_0805_HandSoldering             204.0300   -63.7620  180.0000  top
+C30       0.1uF                     C_0805_HandSoldering             175.0300   -98.2620    0.0000  top
+C31       10uF                      C_0805_HandSoldering             166.5300   -91.7620    0.0000  top
+C32       0.1uF                     C_0805_HandSoldering             180.0300  -108.2620   90.0000  top
+C33       11pF                      C_0805_HandSoldering             155.0300   -75.7620   90.0000  top
+C34       0.1uF                     C_0805_HandSoldering             140.0300   -83.6620  180.0000  top
+C35       0.1uF                     C_0805_HandSoldering             158.3550   -84.9870  270.0000  top
+C36       0.1uF                     C_0805_HandSoldering             140.0300   -80.4620    0.0000  top
+C42       10uF                      C_0805_HandSoldering             162.2120   -76.4160    0.0000  top
+C43       10uF                      C_0805_HandSoldering             157.0300   -71.0120  180.0000  top
+C44       0.01uF                    C_0603_HandSoldering             174.9300   -64.9620    0.0000  top
+C45       10uF                      MF_Passives-CP4MM                174.6500   -73.0720  270.0000  top
+C46       10uF                      MF_Passives-CP4MM                191.4300   -61.0620  180.0000  top
+C47       .047uF                    C_0805_HandSoldering             166.5300   -86.7620    0.0000  top
+C48       10uF                      C_0805_HandSoldering             174.6500   -83.5920  180.0000  top
+C49       100uF                     MF_Passives-CP6.3MM              197.1300   -79.5620  180.0000  top
+D1        RED PWROK                 LED_0805                         187.5300   -65.7620    0.0000  top
+D2        GREEN SDIO                LED_0805                         187.5300   -70.7620    0.0000  top
+D3        RED UTX                   LED_0805                         187.5300   -75.7620    0.0000  top
+D4        GREEN URX                 LED_0805                         187.5300   -80.7620    0.0000  top
+D5        RED (CHARGING)            LED_0805                         187.5300   -85.7620    0.0000  top
+D6        GRN (DONE)                LED_0805                         187.5300   -90.7620    0.0000  top
+D7        RED RFTX                  LED_0805                         187.5300   -95.7620    0.0000  top
+D8        GRN RFRX                  LED_0805                         187.5300  -100.7620    0.0000  top
+L1        4.7nH                     Neosid_Inductor_SM0603CG         146.2800   -65.5120   90.0000  top
+L2        33nH                      Neosid_Inductor_SM0603CG         150.7800   -65.5120   90.0000  top
+L3        0.0068 uH                 Neosid_Inductor_SM0603CG         133.5300   -65.2620  180.0000  top
+L4        0.0068 uH                 Neosid_Inductor_SM0603CG         129.0300   -65.2620  180.0000  top
+L5        15nH                      Neosid_Inductor_SM0603CG          92.0300   -75.7620   90.0000  top
+R2        100                       R_0805                           123.0300   -80.7620  180.0000  top
+R3        10k                       R_0805                           175.0300   -93.2620  180.0000  top
+R5        2k                        R_0805                           122.7800   -90.2620    0.0000  top
+R6        10k                       R_0805                           122.9300   -86.5620    0.0000  top
+R8        10K                       R_0805                           198.5300  -103.2620    0.0000  top
+R9        220                       R_0805                           183.0300   -70.7620    0.0000  top
+R10       220                       R_0805                           183.0300  -100.7620    0.0000  top
+R11       220                       R_0805                           183.0300   -95.7620    0.0000  top
+R12       220                       R_0805                           183.0300   -65.7620    0.0000  top
+R13       1k                        R_0805                           183.0300   -75.7620    0.0000  top
+R14       1k                        R_0805                           183.0300   -80.7620  180.0000  top
+R15       1k                        R_0805                           183.0300   -90.7620    0.0000  top
+R16       1k                        R_0805                           183.0300   -85.7620    0.0000  top
+R19       1k                        R_0805                           166.5300   -76.2620  180.0000  top
+R20       1k                        R_0805                           166.5300   -81.0120  180.0000  top
+R21       100k                      R_0805                           174.1300   -67.9620    0.0000  top
+R22       1k                        R_0805                           166.5300   -72.2620    0.0000  top
+R23       10k                       R_0805                           175.0300   -88.3620  180.0000  top
+SW1       RESET                     MF_Switches-TACT4.2MM            115.2800  -122.7620   90.0000  top
+SW4       UP                        MF_Switches-TACT4.2MM             88.8520   -84.0740    0.0000  top
+SW5       DN                        MF_Switches-TACT4.2MM             88.8520   -93.7260    0.0000  top
+SW6       LEFT                      MF_Switches-TACT4.2MM             83.2640   -89.1540    0.0000  top
+SW7       RIGHT                     MF_Switches-TACT4.2MM             94.1860   -89.1540    0.0000  top
+SW8       ENTER                     MF_Switches-TACT4.2MM            210.0300   -89.2620    0.0000  top
+U1        WS2812B                   MF_LEDs-WS2812B                  124.0300   -54.7620   90.0000  top
+U2        WS2812B                   MF_LEDs-WS2812B                  134.0300   -54.7620   90.0000  top
+U3        WS2812B                   MF_LEDs-WS2812B                  144.0300   -54.7620   90.0000  top
+U4        WS2812B                   MF_LEDs-WS2812B                  154.0300   -54.7620   90.0000  top
+U5        WS2812B                   MF_LEDs-WS2812B                  164.0300   -54.7620   90.0000  top
+U6        WS2812B                   MF_LEDs-WS2812B                  174.0300   -54.7620   90.0000  top
+U7        WS2812B                   MF_LEDs-WS2812B                  174.0300  -122.2620   90.0000  top
+U8        WS2812B                   MF_LEDs-WS2812B                  164.0300  -122.2620   90.0000  top
+U9        WS2812B                   MF_LEDs-WS2812B                  154.0300  -122.2620   90.0000  top
+U10       WS2812B                   MF_LEDs-WS2812B                  144.0300  -122.3620   90.0000  top
+U11       WS2812B                   MF_LEDs-WS2812B                  134.0300  -122.5120   90.0000  top
+U12       WS2812B                   MF_LEDs-WS2812B                  124.0300  -122.5120   90.0000  top
+U14       FT232RL SSOP              SSOP-28_5.3x10.2mm_Pitch0.65mm   172.5300  -106.7620    0.0000  top
+U15       MF-REG-SOT235-3.3V-300mA  SOT-23-5                         115.5300   -96.7620   90.0000  top
+U16       MCP73831T-2ACI/OT         SOT-23-5                         115.2800   -85.7620   90.0000  top
+U18       LM386                     SOIC-8-N                         174.8000   -79.3220  270.0000  top
+Y1        EXS00A-CS02368            Crystal_EXS00A-CS02368           149.9300   -76.1620    0.0000  top
+## End

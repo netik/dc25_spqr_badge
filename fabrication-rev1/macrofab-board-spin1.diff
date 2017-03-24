@@ -1,0 +1,80 @@
+diff --git a/badge/led.h b/badge/led.h
+index 2fbd070..b3b9bb3 100644
+--- a/badge/led.h
++++ b/badge/led.h
+@@ -4,8 +4,8 @@
+ #include "hal.h"
+ #include "math.h"
+ 
+-#define LEDS_COUNT 16
+-#define LEDS_TOP_INDEX 8
++#define LEDS_COUNT 12
++#define LEDS_TOP_INDEX 6
+ 
+ #define sign(x) (( x > 0 ) - ( x < 0 ))
+ 
+diff --git a/badge/main.c b/badge/main.c
+index 41557e9..528f3b0 100644
+--- a/badge/main.c
++++ b/badge/main.c
+@@ -369,8 +369,8 @@ int main(void)
+     
+     playHardFail();
+     /* nuke the main thread but keep our shell up for debugging */
+-    orchardShellRestart();
+-    chThdSleep (TIME_INFINITE);
++    //    orchardShellRestart();
++    //    chThdSleep (TIME_INFINITE);
+   }
+   
+ #endif
+diff --git a/ext/ugfx/boards/base/Nonstandard-KW01-Ides-Of-March/gmouse_lld_MCU_board.h b/ext/ugfx/boards/base/Nonstandard-KW01-Ides-Of-March/gmouse_lld_MCU_board.h
+index de23819..52c4616 100644
+--- a/ext/ugfx/boards/base/Nonstandard-KW01-Ides-Of-March/gmouse_lld_MCU_board.h
++++ b/ext/ugfx/boards/base/Nonstandard-KW01-Ides-Of-March/gmouse_lld_MCU_board.h
+@@ -13,7 +13,7 @@
+ 
+ #include <string.h>
+ 
+-#define MCUFRIEND
++#define EASTRISING
+ 
+ #ifdef MCUFRIEND
+ static const float calibrationData[] = {
+diff --git a/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.c b/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.c
+index da347e0..be45ab5 100644
+--- a/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.c
++++ b/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.c
+@@ -75,7 +75,7 @@ const PALConfig pal_default_config =
+         /* PTA9*/ PAL_MODE_UNCONNECTED,     /*PTA10*/ PAL_MODE_UNCONNECTED,     /*PTA11*/ PAL_MODE_UNCONNECTED,
+         /*PTA12*/ PAL_MODE_UNCONNECTED,     /*PTA13*/ PAL_MODE_UNCONNECTED,     /*PTA14*/ PAL_MODE_UNCONNECTED,
+         /*PTA15*/ PAL_MODE_UNCONNECTED,     /*PTA16*/ PAL_MODE_UNCONNECTED,     /*PTA17*/ PAL_MODE_UNCONNECTED,
+-        /*PTA18*/ PAL_MODE_INPUT_ANALOG,    /*PTA19*/ PAL_MODE_OUTPUT_PUSHPULL, /*PTA20*/ PAL_MODE_ALTERNATIVE_7,
++        /*PTA18*/ PAL_MODE_INPUT_ANALOG,    /*PTA19*/ PAL_MODE_UNCONNECTED,     /*PTA20*/ PAL_MODE_ALTERNATIVE_7,
+         /*PTA21*/ PAL_MODE_UNCONNECTED,     /*PTA22*/ PAL_MODE_UNCONNECTED,     /*PTA23*/ PAL_MODE_UNCONNECTED,
+         /*PTA24*/ PAL_MODE_UNCONNECTED,     /*PTA25*/ PAL_MODE_UNCONNECTED,     /*PTA26*/ PAL_MODE_UNCONNECTED,
+         /*PTA27*/ PAL_MODE_UNCONNECTED,     /*PTA28*/ PAL_MODE_UNCONNECTED,     /*PTA29*/ PAL_MODE_UNCONNECTED,
+diff --git a/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.h b/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.h
+index 53af5ff..9f1b541 100644
+--- a/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.h
++++ b/os/hal/boards/NONSTANDARD_KW01_IDES_OF_MARCH/board.h
+@@ -45,16 +45,17 @@
+ 
+ /* Ides of March KW01 when using FEI mode. */
+ 
+-#if notdef
++
+ #define KINETIS_SYSCLK_FREQUENCY    47972352UL
+ #define KINETIS_MCG_MODE            KINETIS_MCG_MODE_FEI
+-#endif
+ 
+ /* Ides of March KW01 when using PEE mode. */
+ 
++#if notdef
+ /* External 32 MHz clock from radio with PLL for 48 MHz core/system clock. */
+ #define KINETIS_SYSCLK_FREQUENCY    48000000UL 
+ #define KINETIS_MCG_MODE            KINETIS_MCG_MODE_PEE
++#endif
+ 
+ /* GPIO pin assignments */
+ 
