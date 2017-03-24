@@ -3,12 +3,14 @@ Unofficial DEFCON 25 badge.
 
 Stuff in the fabrication folder was set to MacroFab for prototype v1
 on 12/20/2016. At today's prices, a board costs about $216 to make, or
-$500 for two.
+$500 for two. This is for a 4-sided board and is not recommended.
+
+Fabrication rev3 contains our final and hopefully production gerbers.
+It was sent out 3/23 to Macrofab, and we're waiting to see if it comes
+back working or not. 
 
 The firmware is available in my checkout of the chibios-orchard repo.
 
-It's not even remotely near done yet, but I'm storing it here to keep
-track of things.
 
 --
 @netik
