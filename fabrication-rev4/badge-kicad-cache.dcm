@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AWSCR-XTAL
+D Two pin crystal
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP CREE_CLVBA-FKA
+D LED RGB, common anode (pin 1)
+K led rgb diode
+$ENDCMP
+#
+#End Doc Library

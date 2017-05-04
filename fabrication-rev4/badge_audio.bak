@@ -1,0 +1,373 @@
+EESchema Schematic File Version 2
+LIBS:badge-kicad-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FTDI
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
+LIBS:w_vacuum
+LIBS:open-project
+LIBS:MF_Aesthetics
+LIBS:MF_Connectors
+LIBS:MF_Discrete_Semiconductor
+LIBS:MF_Displays
+LIBS:MF_Frequency_Control
+LIBS:MF_IC_Analog
+LIBS:MF_IC_Digital
+LIBS:MF_IC_Power
+LIBS:MF_LEDs
+LIBS:MF_Passives
+LIBS:MF_Sensors
+LIBS:MF_Switches
+LIBS:badge-kicad-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 3900 3750 0    60   Input ~ 0
+PWM_SOUND
+$Comp
+L SPEAKER SP2
+U 1 1 5894DD5D
+P 8200 3950
+F 0 "SP2" H 8200 4300 50  0000 C CNN
+F 1 "AST_01708MR_R" H 8250 3550 50  0000 C CNN
+F 2 "jna-parts:SPEAKER_AST_01708MR_R" H 8200 3950 50  0001 C CNN
+F 3 "" H 8200 3950 50  0000 C CNN
+	1    8200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R19
+U 1 1 5894DD6C
+P 4250 3750
+F 0 "R19" V 4043 3750 50  0000 C CNN
+F 1 "1k" V 4134 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4180 3750 50  0001 C CNN
+F 3 "" H 4250 3750 50  0000 C CNN
+	1    4250 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 5894DD73
+P 4250 4050
+F 0 "R20" V 4350 4050 50  0000 C CNN
+F 1 "1k" V 4450 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4180 4050 50  0001 C CNN
+F 3 "" H 4250 4050 50  0000 C CNN
+	1    4250 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 5894DD88
+P 5350 3750
+F 0 "R21" V 5143 3750 50  0000 C CNN
+F 1 "100k" V 5234 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5280 3750 50  0001 C CNN
+F 3 "" H 5350 3750 50  0000 C CNN
+	1    5350 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 3750 5200 3750
+Wire Wire Line
+	5050 4050 5050 3750
+Wire Wire Line
+	4900 4050 5050 4050
+Connection ~ 5050 3750
+Wire Wire Line
+	4400 3750 4600 3750
+Wire Wire Line
+	4400 4050 4600 4050
+Wire Wire Line
+	3900 3750 4100 3750
+Wire Wire Line
+	4100 4050 3900 4050
+$Comp
+L GND #PWR048
+U 1 1 5894DD97
+P 6050 4400
+F 0 "#PWR048" H 6050 4150 50  0001 C CNN
+F 1 "GND" H 6055 4227 50  0000 C CNN
+F 2 "" H 6050 4400 50  0000 C CNN
+F 3 "" H 6050 4400 50  0000 C CNN
+	1    6050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3950 6250 3950
+Wire Wire Line
+	6250 3950 6250 4300
+Wire Wire Line
+	6600 4150 6600 4300
+$Comp
+L CAPACITOR_P_6.3MM C?
+U 1 1 5894DDA0
+P 6950 3300
+AR Path="/5894DDA0" Ref="C?"  Part="1" 
+AR Path="/58948731/5894DDA0" Ref="C46"  Part="1" 
+F 0 "C46" H 7068 3342 45  0000 L CNN
+F 1 "10uF" H 7068 3258 45  0000 L CNN
+F 2 "MF_Passives:MF_Passives-CP4MM" H 6980 3450 20  0001 C CNN
+F 3 "" H 6950 3300 60  0001 C CNN
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3200 6950 3100
+Wire Wire Line
+	6950 3100 6700 3100
+Wire Wire Line
+	6700 3100 6700 3550
+$Comp
+L GND #PWR049
+U 1 1 5894DDAA
+P 6950 3500
+F 0 "#PWR049" H 6950 3250 50  0001 C CNN
+F 1 "GND" H 6955 3327 50  0000 C CNN
+F 2 "" H 6950 3500 50  0000 C CNN
+F 3 "" H 6950 3500 50  0000 C CNN
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3400 6950 3500
+Text GLabel 6600 2850 1    60   Input ~ 0
+VBAT
+Wire Wire Line
+	6600 2850 6600 3550
+$Comp
+L R R22
+U 1 1 5894DDB8
+P 6050 4100
+F 0 "R22" H 6050 4350 50  0000 L CNN
+F 1 "1k" H 6050 4250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5980 4100 50  0001 C CNN
+F 3 "" H 6050 4100 50  0000 C CNN
+	1    6050 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3750 6050 3950
+Connection ~ 6050 3750
+$Comp
+L C C44
+U 1 1 5894DDC1
+P 5650 4100
+F 0 "C44" H 5350 4150 50  0000 L CNN
+F 1 "0.01uF" H 5250 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5688 3950 50  0001 C CNN
+F 3 "" H 5650 4100 50  0000 C CNN
+	1    5650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3950 5650 3750
+Connection ~ 5650 3750
+Wire Wire Line
+	5500 3750 6400 3750
+Wire Wire Line
+	5650 4250 5650 4300
+Wire Wire Line
+	5650 4300 6600 4300
+Wire Wire Line
+	6050 4250 6050 4400
+Connection ~ 6250 4300
+Connection ~ 6050 4300
+$Comp
+L CAPACITOR_P_6.3MM C?
+U 1 1 5894DDD0
+P 7550 3850
+AR Path="/5894DDD0" Ref="C?"  Part="1" 
+AR Path="/58948731/5894DDD0" Ref="C49"  Part="1" 
+F 0 "C49" V 7400 3850 45  0000 C CNN
+F 1 "100uF" V 7300 3850 45  0000 C CNN
+F 2 "MF_Passives:MF_Passives-CP6.3MM" H 7580 4000 20  0001 C CNN
+F 3 "" H 7550 3850 60  0001 C CNN
+	1    7550 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 3850 7650 3850
+Wire Wire Line
+	7000 3850 7450 3850
+$Comp
+L CAPACITOR_P_6.3MM C?
+U 1 1 5894DDE1
+P 6850 4450
+AR Path="/5894DDE1" Ref="C?"  Part="1" 
+AR Path="/58948731/5894DDE1" Ref="C45"  Part="1" 
+F 0 "C45" V 7094 4450 45  0000 C CNN
+F 1 "10uF" V 7010 4450 45  0000 C CNN
+F 2 "MF_Passives:MF_Passives-CP4MM" H 6880 4600 20  0001 C CNN
+F 3 "" H 6850 4450 60  0001 C CNN
+	1    6850 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6800 4150 7050 4150
+Wire Wire Line
+	7050 4150 7050 4450
+Wire Wire Line
+	7050 4450 6950 4450
+Wire Wire Line
+	6700 4150 6700 4450
+Wire Wire Line
+	6700 4450 6750 4450
+$Comp
+L C C47
+U 1 1 5894DDED
+P 7250 4300
+F 0 "C47" H 7365 4346 50  0000 L CNN
+F 1 ".047uF" H 7365 4255 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7288 4150 50  0001 C CNN
+F 3 "" H 7250 4300 50  0000 C CNN
+	1    7250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3850 7250 4150
+Connection ~ 7250 3850
+$Comp
+L R R23
+U 1 1 5894DDF6
+P 7250 4700
+F 0 "R23" H 7320 4746 50  0000 L CNN
+F 1 "10k" H 7320 4655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 7180 4700 50  0001 C CNN
+F 3 "" H 7250 4700 50  0000 C CNN
+	1    7250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 5894DDFD
+P 7250 4950
+F 0 "#PWR050" H 7250 4700 50  0001 C CNN
+F 1 "GND" H 7255 4777 50  0000 C CNN
+F 2 "" H 7250 4950 50  0000 C CNN
+F 3 "" H 7250 4950 50  0000 C CNN
+	1    7250 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 4850 7250 4950
+Wire Wire Line
+	7250 4550 7250 4450
+Wire Wire Line
+	7900 4050 7750 4050
+Wire Wire Line
+	7750 4050 7750 4900
+Wire Wire Line
+	7750 4900 7250 4900
+Connection ~ 7250 4900
+Text GLabel 3900 4050 0    60   Input ~ 0
+DACOUT
+$Comp
+L C C42
+U 1 1 589425ED
+P 4750 3750
+F 0 "C42" V 4498 3750 50  0000 C CNN
+F 1 "10uF" V 4589 3750 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4788 3600 50  0001 C CNN
+F 3 "" H 4750 3750 50  0000 C CNN
+	1    4750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L C C43
+U 1 1 58942745
+P 4750 4050
+F 0 "C43" V 4900 4050 50  0000 C CNN
+F 1 "10uF" V 5000 4050 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4788 3900 50  0001 C CNN
+F 3 "" H 4750 4050 50  0000 C CNN
+	1    4750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C48
+U 1 1 58945BCF
+P 6100 3100
+F 0 "C48" H 6215 3146 50  0000 L CNN
+F 1 "10uF" H 6200 3050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6138 2950 50  0001 C CNN
+F 3 "" H 6100 3100 50  0000 C CNN
+	1    6100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM386 U18
+U 1 1 5894DD65
+P 6700 3850
+F 0 "U18" H 6300 4300 50  0000 L CNN
+F 1 "LM386" H 6300 4200 50  0000 L CNN
+F 2 "SMD_Packages:SOIC-8-N" H 6800 3950 50  0001 C CNN
+F 3 "" H 6900 4050 50  0000 C CNN
+	1    6700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR051
+U 1 1 58945FCC
+P 6100 3400
+F 0 "#PWR051" H 6100 3150 50  0001 C CNN
+F 1 "GND" H 6100 3250 50  0000 C CNN
+F 2 "" H 6100 3400 50  0000 C CNN
+F 3 "" H 6100 3400 50  0000 C CNN
+	1    6100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2950 6100 2950
+Connection ~ 6600 2950
+Wire Wire Line
+	6100 3250 6100 3400
+$EndSCHEMATC
