@@ -1,4 +1,4 @@
-(module jna-parts:mkw01z128 (layer F.Cu) (tedit 58F7F169)
+(module mkw01z128-updated (layer F.Cu) (tedit 58F800FA)
   (descr 98ASA00302D)
   (fp_text reference U13 (at -0.17 6.012) (layer F.SilkS)
     (effects (font (size 1.016 0.762) (thickness 0.127)))
@@ -146,6 +146,6 @@
     (solder_mask_margin 0.1044))
   (pad 59 smd rect (at 1.7615 2.7501) (size 0.3556 0.4181) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.1044))
-  (pad "" smd rect (at 0 -1.37) (size 6.604 3.754) (layers F.Cu))
   (pad "" smd rect (at -1.46 1.54) (size 3.6827 3.2385) (layers F.Cu))
+  (pad "" smd rect (at 0 -1.37) (size 6.604 3.754) (layers F.Cu))
 )
