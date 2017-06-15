@@ -42,9 +42,11 @@ Aside from the PCB and BOM that is here, you will also need:
 **Misc**
 
 * A small piece of double-sided tape to hold the battery to the back of the PCB. We used velcro dots, but double sided tape feels better and holds the battery closer to the board.
-* A Lanyard 
+* A Lanyard -- we Like the "Lobster claw" type, a double-ended lanyard with two clips so you can wear the badge up and down or left-right depending on how you'd like.
 
 --
+
 @netik
+
 05/04/2017
 
