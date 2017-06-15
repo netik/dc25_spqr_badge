@@ -19,8 +19,8 @@ Aside from the PCB and BOM that is here, you will also need:
 * Copy the entire contents of the [latest SD card](https://dc25spqr.com), to the root directory of the SD Card. Name the SD card "SPQR_DC25" to be compatible with the existing update scripts if you'd like.
 
 **(qty 1) ER-TFTM-028-4 (v4.0) 320x240 TFT Touch Screen**
-http://www.buydisplay.com/default/2-8-inch-tft-touch-shield-for-arduino-w-capacitive-touch-screen-module
 
+* Go to Buydisplay.com: http://www.buydisplay.com/default/2-8-inch-tft-touch-shield-for-arduino-w-capacitive-touch-screen-module
 * Under "Interface" select Pin Header Connection 4-Wire SPI + US$0.33
 * Under "Power Supply (Typ.)" select VDD=3.3V
 * Under "Touch Panel (Attached by default)" select: "2.8" Resistive Touch Panel with Controller
@@ -28,16 +28,17 @@ http://www.buydisplay.com/default/2-8-inch-tft-touch-shield-for-arduino-w-capaci
 
 **(qty 1) PKCELL 3.7v 1200mAh 3.7v LiPo with JST connector**
 
-* Adafruit https://www.adafruit.com/product/258
+* Go to Adafruit, buy this: https://www.adafruit.com/product/258 ($10 or so)
+* If you are creating these in bulk, go directly to PKCELL and buy them from Shenzen. They are $1.25 or so from China.
 * If you use another battery, be sure and verify polarity of the JST connector!
 
-**(qty 2) Standoffs and screws to hold up the screen**
+**(qty 2 or qty 4 if you are paranoid) Standoffs and screws to hold up the screen**
 
 * Wurth 970110151 with M2.5 x 0.45 screws
 * This is Mouser part 855-R25-1001102 R25-1001102 for the M2.5 x 11mm HEX Standoff
 * Screws can be had from Digkey
 * 36-29300-ND MACHINE SCREW PAN SLOTTED M2.5
-
+* The spacing is tricky and we had to work to get the screen to sit squarely on the board, substituting other standoffs will probably not work here.
 
 **Misc**
 
