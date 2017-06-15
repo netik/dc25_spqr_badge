@@ -36,8 +36,7 @@ Aside from the PCB and BOM that is here, you will also need:
 
 * Wurth 970110151 with M2.5 x 0.45 screws
 * This is Mouser part 855-R25-1001102 R25-1001102 for the M2.5 x 11mm HEX Standoff
-* Screws can be had from Digkey
-* 36-29300-ND MACHINE SCREW PAN SLOTTED M2.5
+* Screws can be had from Digkey as part 36-29300-ND MACHINE SCREW PAN SLOTTED M2.5
 * The spacing is tricky and we had to work to get the screen to sit squarely on the board, substituting other standoffs will probably not work here.
 
 **Misc**
