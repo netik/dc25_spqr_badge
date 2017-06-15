@@ -31,7 +31,7 @@ http://www.buydisplay.com/default/2-8-inch-tft-touch-shield-for-arduino-w-capaci
 * Adafruit https://www.adafruit.com/product/258
 * If you use another battery, be sure and verify polarity of the JST connector!
 
-**(qty 2) Standoffs and screws to hold up the screen **
+**(qty 2) Standoffs and screws to hold up the screen**
 
 * Wurth 970110151 with M2.5 x 0.45 screws
 * This is Mouser part 855-R25-1001102 R25-1001102 for the M2.5 x 11mm HEX Standoff
