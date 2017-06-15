@@ -11,9 +11,9 @@ The board layout was designed with [KiCad](http://kicad-pcb.org/)
 
 Aside from the PCB and BOM that is here, you will also need:
 
-(1) Micro SD Card, at least 1GB
+(qty 1) Micro SD Card, at least 1GB, We recommend class 6 cards because video performance.
 
-(1) ER-TFTM-028-4 (v4.0) screen
+(qty 1) ER-TFTM-028-4 (v4.0) screen
   Ordering URL:
   http://www.buydisplay.com/default/2-8-inch-tft-touch-shield-for-arduino-w-capacitive-touch-screen-module
 
@@ -28,7 +28,23 @@ Under "Touch Panel (Attached by default)" select:
 
 Leave "Font Chip" selection empty.
 
+(qty 1) PKCELL 3.7v
 
+(qty 2) Standoffs and screws to hold up the screen 
+(Wurth 970110151 with M2.5 x 0.45 screws)
+Mouser:
+855-R25-1001102
+R25-1001102
+M2.5 x 11mm HEX Standoff
+
+Digikey:
+36-29300-ND
+MACHINE SCREW PAN SLOTTED M2.5
+HTSUS: 7318.15.5030
+
+Misc
+A small piece of double-sided tape to hold the battery to the back of the PCB.
+A Lanyard
 
 --
 @netik
